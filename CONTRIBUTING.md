@@ -1,7 +1,7 @@
 # Contribution Guidelines for Symbiosis IoT Quantum Project
 
 ## Project Structure
-- Main Repo: `shellworlds/46040SYM`
+- Main Repo: `shellworlds/Quantum-Grover-POC`
 - Team Forks: `muskan-dt/6040SYMB`, `mike-aeq/040SYMBI`, `vipul-zius/40SYMBIO`, `dt-uk/0SYMBIOS`
 
 ## Fork & Pull Request Workflow
@@ -9,9 +9,9 @@
 ### 1. Fork the Repository
 ```bash
 # Each team member forks from main repo
-git clone https://github.com/shellworlds/46040SYM.git
-cd 46040SYM
-git remote add upstream https://github.com/shellworlds/46040SYM.git
+git clone https://github.com/shellworlds/Quantum-Grover-POC.git
+cd Quantum-Grover-POC
+git remote add upstream https://github.com/shellworlds/Quantum-Grover-POC.git
 git checkout -b feature/YOUR_REPO_NAME
 # Example: git checkout -b feature/6040SYMB
 # Work on your assigned component
@@ -23,7 +23,7 @@ git commit -m "feat: Add [feature] for [REPO_NAME]"
 # feat:, fix:, docs:, style:, refactor:, test:, chore:
 git push origin feature/YOUR_REPO_NAME
 6. Create Pull Request
-Go to GitHub: https://github.com/shellworlds/46040SYM
+Go to GitHub: https://github.com/shellworlds/Quantum-Grover-POC
 
 Click "New Pull Request"
 

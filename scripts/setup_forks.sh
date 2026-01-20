@@ -4,7 +4,7 @@
 
 TEAM_MEMBERS=("muskan-dt" "mike-aeq" "vipul-zius" "dt-uk")
 REPO_NAMES=("6040SYMB" "040SYMBI" "40SYMBIO" "0SYMBIOS")
-MAIN_REPO="shellworlds/46040SYM"
+MAIN_REPO="shellworlds/Quantum-Grover-POC"
 GITHUB_TOKEN=$(cat ~/.github_token 2>/dev/null || echo "")
 
 echo "=== Setting up Team Forks ==="
@@ -54,7 +54,7 @@ git checkout -b feature/$repo_name
 git add .
 git commit -m "Add feature for $repo_name"
 git push origin feature/$repo_name
-# Create PR to shellworlds/46040SYM
+# Create PR to shellworlds/Quantum-Grover-POC
 \`\`\`
 
 ## Deadline: January 18, 2026
@@ -70,14 +70,14 @@ git checkout main 2>/dev/null || git checkout master
 echo ""
 echo "=== Setup Complete ==="
 echo "Feature branches created for all team members"
-echo "Each member should fork from: https://github.com/shellworlds/46040SYM"
+echo "Each member should fork from: https://github.com/shellworlds/Quantum-Grover-POC"
 echo "And work on their respective feature branches"
 EOF && chmod +x scripts/setup_forks.sh
 cd ~/grovers-poc && cat > CONTRIBUTING.md << 'EOF'
 # Contribution Guidelines for Symbiosis IoT Quantum Project
 
 ## Project Structure
-- Main Repo: `shellworlds/46040SYM`
+- Main Repo: `shellworlds/Quantum-Grover-POC`
 - Team Forks: `muskan-dt/6040SYMB`, `mike-aeq/040SYMBI`, `vipul-zius/40SYMBIO`, `dt-uk/0SYMBIOS`
 
 ## Fork & Pull Request Workflow
@@ -85,9 +85,9 @@ cd ~/grovers-poc && cat > CONTRIBUTING.md << 'EOF'
 ### 1. Fork the Repository
 ```bash
 # Each team member forks from main repo
-git clone https://github.com/shellworlds/46040SYM.git
-cd 46040SYM
-git remote add upstream https://github.com/shellworlds/46040SYM.git
+git clone https://github.com/shellworlds/Quantum-Grover-POC.git
+cd Quantum-Grover-POC
+git remote add upstream https://github.com/shellworlds/Quantum-Grover-POC.git
 git checkout -b feature/YOUR_REPO_NAME
 # Example: git checkout -b feature/6040SYMB
 # Work on your assigned component
@@ -99,7 +99,7 @@ git commit -m "feat: Add [feature] for [REPO_NAME]"
 # feat:, fix:, docs:, style:, refactor:, test:, chore:
 git push origin feature/YOUR_REPO_NAME
 6. Create Pull Request
-Go to GitHub: https://github.com/shellworlds/46040SYM
+Go to GitHub: https://github.com/shellworlds/Quantum-Grover-POC
 
 Click "New Pull Request"
 
